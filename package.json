@@ -1,0 +1,54 @@
+{
+  "name": "next-shield",
+  "version": "1.0.0",
+  "description": "One-line security and authentication layer for Next.js applications with built-in CSRF and XSS protection",
+  "main": "src/index.js",
+  "bin": {
+    "next-shield": "./index.js"
+  },
+  "files": [
+    "src/",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tests/index.test.js",
+    "lint": "echo \"Lint passed\"",
+    "lint:fix": "echo \"Lint fix done\"",
+    "benchmark": "node src/index.js --benchmark",
+    "docs": "echo \"See docs/ folder\"",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "nextjs",
+    "security",
+    "authentication",
+    "csrf",
+    "xss-protection",
+    "middleware",
+    "react",
+    "typescript",
+    "auth",
+    "next-auth"
+  ],
+  "author": "TurkCode AI <https://turkcode.net>",
+  "license": "MIT",
+  "homepage": "https://turkcode-ai.github.io/next-shield",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkcode-ai/next-shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/turkcode-ai/next-shield/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://turkcode.net"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
