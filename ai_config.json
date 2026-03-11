@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "next-shield",
+    "display_name": "Next Shield",
+    "description": "One-line security and authentication layer for Next.js applications with built-in CSRF and XSS protection",
+    "author": "TurkCode AI",
+    "website": "https://turkcode.net",
+    "repository": "https://github.com/turkcode-ai/next-shield",
+    "license": "MIT",
+    "language": "javascript",
+    "runtime": "node",
+    "min_version": "16.0.0"
+  },
+  "entry_points": {
+    "main": "src/index.js",
+    "cli": "index.js",
+    "tests": "tests/"
+  },
+  "keywords": [
+    "nextjs",
+    "security",
+    "authentication",
+    "csrf",
+    "xss-protection",
+    "middleware",
+    "react",
+    "typescript",
+    "auth",
+    "next-auth"
+  ],
+  "category": "nextjs-react",
+  "capabilities": [
+    "nextjs",
+    "security",
+    "authentication",
+    "csrf",
+    "xss-protection"
+  ],
+  "documentation": {
+    "readme": "README.md",
+    "api": "docs/API.md",
+    "learn_more": "LEARN_MORE.md",
+    "changelog": "CHANGELOG.md"
+  },
+  "ai_hints": {
+    "purpose": "One-line security and authentication layer for Next.js applications with built-in CSRF and XSS protection",
+    "use_cases": [
+      "Use next-shield for nextjs-react tasks",
+      "Import with: const lib = require('next-shield')",
+      "CLI usage: npx next-shield --help"
+    ],
+    "related_topics": [
+      "nextjs security",
+      "next.js auth",
+      "nextjs middleware protection"
+    ]
+  }
+}
