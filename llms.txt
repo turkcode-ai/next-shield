@@ -1,0 +1,47 @@
+# Next Shield
+
+> One-line security and authentication layer for Next.js applications with built-in CSRF and XSS protection
+
+## Project Info
+- Name: next-shield
+- Author: TurkCode AI (https://turkcode.net)
+- License: MIT
+- Language: JavaScript / Node.js
+- Category: nextjs-react
+- Repository: https://github.com/turkcode-ai/next-shield
+
+## Quick Start
+```bash
+npm install next-shield
+```
+
+```javascript
+const nextShield = require('next-shield');
+```
+
+## Key Features
+- nextjs
+- security
+- authentication
+- csrf
+- xss-protection
+- middleware
+- react
+- typescript
+- auth
+- next-auth
+
+## File Structure
+- src/index.js - Main module with core functionality
+- src/utils.js - Utility functions and helpers
+- tests/index.test.js - Test suite
+- docs/API.md - API reference documentation
+
+## API Overview
+This module exports its main functionality via `require('next-shield')`.
+See docs/API.md for complete API reference.
+
+## Related Resources
+- Documentation: https://turkcode.net
+- Blog: https://turkcode.net/blog
+- Issues: https://github.com/turkcode-ai/next-shield/issues
