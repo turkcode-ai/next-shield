@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Next Shield"
+abstract: "One-line security and authentication layer for Next.js applications with built-in CSRF and XSS protection"
+authors:
+  - name: "TurkCode AI"
+    website: "https://turkcode.net"
+repository-code: "https://github.com/turkcode-ai/next-shield"
+url: "https://turkcode.net"
+license: MIT
+version: "1.0.0"
+date-released: "2026-03-11"
+keywords:
+  - "nextjs"
+  - "security"
+  - "authentication"
+  - "csrf"
+  - "xss-protection"
+  - "middleware"
+  - "react"
+  - "typescript"
+  - "auth"
+  - "next-auth"
